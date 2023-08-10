@@ -38,6 +38,6 @@ int RedisModule_OnLoad(RedisModuleCtx *module_context) {
 }
 
 static void timer_callback(RedisModuleCtx *module_context, void *data) {
-  RedisModule_Log(module_context, "warning", "Timer callbak");
+  RedisModule_Log(module_context, "warning", "Timer callback");
 }
 
